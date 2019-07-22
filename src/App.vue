@@ -1,28 +1,31 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <v-app>
+    <v-toolbar app>
+      <v-toolbar-title class="headline text-uppercase">Anbcodes</v-toolbar-title>
+      <v-spacer></v-spacer>
+      <v-btn icon href="https://github.com/anbcodes">
+        <img src="./assets/GitHub-Mark/PNG/GitHub-Mark-32px.png" />
+      </v-btn>
+    </v-toolbar>
+
+    <v-content>
+      <Main />
+    </v-content>
+  </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Main from "./components/Main";
 
 export default {
-  name: 'app',
+  name: "App",
   components: {
-    HelloWorld
+    Main
+  },
+  data() {
+    return {
+      //
+    };
   }
-}
+};
 </script>
-
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
