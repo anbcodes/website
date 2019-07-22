@@ -13,7 +13,7 @@
                 </div>
               </v-card-title>
               <v-card-actions>
-                <v-btn flat :color="site.color" :href="site.link">Visit</v-btn>
+                <v-btn flat :color="site.color" :href="website(site.link)">Visit</v-btn>
               </v-card-actions>
             </v-card>
           </v-flex>
@@ -63,7 +63,12 @@ export default {
         link: "LatinBoard"
       }
     ]
-  })
+  }),
+  methods: {
+    website(value) {
+      return "/" + value;
+    }
+  }
 };
 </script>
 
