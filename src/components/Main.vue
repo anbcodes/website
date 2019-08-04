@@ -29,6 +29,12 @@ export default {
   data: () => ({
     sites: [
       {
+        name: "School Planner",
+        description: "A weekly planner for CC",
+        color: "orange",
+        link: "School_Planner"
+      },
+      {
         name: "Multiplication tables",
         description: "A game where you can review mulitplication facts",
         color: "blue",
