@@ -35,6 +35,12 @@ export default {
         link: "School_Planner"
       },
       {
+        name: "Lesson Planner",
+        description: "A lesson planner for CC",
+        color: "indigo",
+        link: "Lesson_Planner"
+      },
+      {
         name: "Multiplication tables",
         description: "A game where you can review mulitplication facts",
         color: "blue",
