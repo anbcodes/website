@@ -32,53 +32,46 @@ export default {
         name: "School Planner",
         description: "A weekly planner for CC",
         color: "orange",
-        link: "School_Planner"
+        link: "school-planner"
       },
       {
         name: "Lesson Planner",
         description: "A lesson planner for CC",
         color: "indigo",
-        link: "Lesson_Planner"
+        link: "lesson-planner"
       },
       {
         name: "Multiplication tables",
         description: "A game where you can review mulitplication facts",
         color: "blue",
-        link: "MultiplicationTables"
+        link: "multiplication-tables"
       },
       {
         name: "Latin Vocabulary Review",
         description:
           "A game that asks which weeks you want to review then creates random questions with multiple choice answers",
         color: "purple",
-        link: "LatinVocabReview"
+        link: "latin-vocabulary-review"
       },
       {
         name: "Latin Charts",
         description:
           "A app where you fill in the other side of a chart with latin or english words",
         color: "dark-blue",
-        link: "LatinCharts"
-      },
-      {
-        name: "Take Over the World Game (By Rcbcodes)",
-        description:
-          "Take Over the World is a clicker game created by Rcbcodes WARNING: It is hard to stop playing",
-        color: "red",
-        link: "TakeOverTheWorldGame"
+        link: "latin-charts"
       },
       {
         name: "Latin Board",
         description:
           "Latin Board generates a 6x6 grid of latin vocabulary which you can use to review vocabulary",
         color: "deep-purple",
-        link: "LatinBoard"
+        link: "latin-board"
       }
     ]
   }),
   methods: {
     website(value) {
-      return "/" + value;
+      return  value + ".usefulwebapps.com";
     }
   }
 };
