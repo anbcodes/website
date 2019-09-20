@@ -32,46 +32,46 @@ export default {
         name: "School Planner",
         description: "A weekly planner for CC",
         color: "orange",
-        link: "school-planner"
+        link: "School_Planner"
       },
       {
         name: "Lesson Planner",
         description: "A lesson planner for CC",
         color: "indigo",
-        link: "lesson-planner"
+        link: "Lesson_Planner"
       },
       {
         name: "Multiplication tables",
         description: "A game where you can review mulitplication facts",
         color: "blue",
-        link: "multiplication-tables"
+        link: "MultiplicationTables"
       },
       {
         name: "Latin Vocabulary Review",
         description:
           "A game that asks which weeks you want to review then creates random questions with multiple choice answers",
         color: "purple",
-        link: "latin-vocabulary-review"
+        link: "LatinVocabReview"
       },
       {
         name: "Latin Charts",
         description:
           "A app where you fill in the other side of a chart with latin or english words",
         color: "dark-blue",
-        link: "latin-charts"
+        link: "LatinCharts"
       },
       {
         name: "Latin Board",
         description:
           "Latin Board generates a 6x6 grid of latin vocabulary which you can use to review vocabulary",
         color: "deep-purple",
-        link: "latin-board"
+        link: "LatinBoard"
       }
     ]
   }),
   methods: {
     website(value) {
-      return  value + ".usefulwebapps.com";
+      return  "/" + value;
     }
   }
 };
