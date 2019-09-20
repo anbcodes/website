@@ -71,7 +71,7 @@ export default {
   }),
   methods: {
     website(value) {
-      return value + ".usefulwebapps.com";
+      return "https://" + value + ".usefulwebapps.com";
     }
   }
 };
