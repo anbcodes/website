@@ -35,6 +35,12 @@ export default {
         link: "schoolplanner"
       },
       {
+        name: "Google Docs ANI Chart Analyzer",
+        description: "This tool takes a sorted ANI chart and reorders the items in it (So you can look at it in order)",
+        color: "indigo",
+        link: "anianalyzer"
+      },
+      {
         name: "Lesson Planner",
         description: "A lesson planner for CC",
         color: "indigo",
