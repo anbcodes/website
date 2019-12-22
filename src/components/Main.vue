@@ -28,6 +28,13 @@
 export default {
   data: () => ({
     sites: [
+       {
+        name: "Naughty or Nice List",
+        description:
+          "A way to add your friends to a naughty and nice list",
+        color: "red",
+        link: "naughtylist"
+      },
       {
         name: "School Planner",
         description: "A weekly planner for CC",
