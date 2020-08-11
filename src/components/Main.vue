@@ -28,12 +28,11 @@
 export default {
   data: () => ({
     sites: [
-       {
-        name: "Naughty or Nice List",
-        description:
-          "A way to add your friends to a naughty and nice list",
-        color: "red",
-        link: "naughtylist"
+      {
+        name: "Google Docs ANI Chart Analyzer 2.0",
+        description: "This tool takes a sorted ANI chart and reorders the items in it (So you can look at it in order)",
+        color: "indigo",
+        link: "anianalyzer2"
       },
       {
         name: "School Planner",
@@ -42,10 +41,11 @@ export default {
         link: "schoolplanner"
       },
       {
-        name: "Google Docs ANI Chart Analyzer",
-        description: "This tool takes a sorted ANI chart and reorders the items in it (So you can look at it in order)",
-        color: "indigo",
-        link: "anianalyzer"
+        name: "Naughty or Nice List",
+        description:
+          "A way to add your friends to a naughty and nice list",
+        color: "red",
+        link: "naughtylist"
       },
       {
         name: "Lesson Planner",
